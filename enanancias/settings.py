@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '5q=4volxpa0=9*!g4dyssz6$_kexcu55wi2-5ehqyd4u%7%21s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -120,6 +120,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = "/home/enanacias/static/"
+
+STATIC_ROOT = BASE_DIR + "/static/"
+
+MEDIA_ROOT = BASE_DIR + '/uploads/'
+
+MEDIA_URL = '/'
 
 SITE_ID = 1
+
+# EMAIL_HOST = "smtp.gmail.com"
+# EMAIL_HOST_USER = "enanancias@gmail.com"
+# EMAIL_HOST_PASSWORD = 'enanancias2016'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
