@@ -1,0 +1,14 @@
+
+/* TEAM */
+  Developer: Rediel Lazaro Rodriguez Torres
+  email: reidelon@gmail.com
+  Technologies Django and Django-Blog-Zinnia
+
+/* THANKS */
+  My parents.
+
+  {# Site: http://reidelon.site/ #}
+  {# Twitter: @fantomas42 #}
+  {# GitHub: https://github.com/Fantomas42/ #}
+  {#Location: Habana, Cuba #}
+

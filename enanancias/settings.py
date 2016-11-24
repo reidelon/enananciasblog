@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'tagging',
     'zinnia',
     'mederoblog',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
@@ -128,6 +129,8 @@ MEDIA_ROOT = BASE_DIR + '/uploads/'
 MEDIA_URL = '/'
 
 SITE_ID = 1
+
+# ZINNIA_UPLOAD_TO = BASE_DIR + '/static/uploads/'
 
 # EMAIL_HOST = "smtp.gmail.com"
 # EMAIL_HOST_USER = "enanancias@gmail.com"
