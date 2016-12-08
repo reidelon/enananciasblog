@@ -140,10 +140,9 @@ MEDIA_URL = '/'
 
 SITE_ID = 1
 
-# ZINNIA_UPLOAD_TO = BASE_DIR + '/static/uploads/'
 
-# EMAIL_HOST = "smtp.gmail.com"
-# EMAIL_HOST_USER = "enanancias@gmail.com"
-# EMAIL_HOST_PASSWORD = 'enanancias2016'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
