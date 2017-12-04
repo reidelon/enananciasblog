@@ -34,6 +34,8 @@
     <link rel="stylesheet" type="text/css" media="screen, projection"
           href="{% static "zinnia/theme/css/screen.css" %}"/>
     <link rel="stylesheet" type="text/css" media="print" href="{% static "zinnia/theme/css/print.css" %}"/>
+
+    <script type="text/javascript" src="{% static 'mederoblog/js/jquery-2.1.1.js' %}"></script>
     <!--[if lt IE 8]>
         <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static "zinnia/theme/css/ie.css" %}" />
     <![endif]-->
@@ -118,5 +120,10 @@
 
 
 </div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".entry-discussions").remove();
+    });
+</script>
 </body>
 </html>
